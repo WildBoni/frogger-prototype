@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px 0;
+    margin: 0;
+    text-align: left;
+}
+
+li {
+    padding: 0 20px;
+    font-size: 16px;
+    display: inline;
+}
+
+a {
+    display: inline-block;
+}
+
+.lives {
+    font-weight: bold;
+    color: #b60607;
+}
+
+.score {
+    font-weight: bold;
+    color: #088b11;
+}
+
+.reset {
+    margin: 20px;
+}
+
+.reset-game {
+    background-color: #8893a3;
+    padding: 10px 50px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.reset-game:hover {
+    color: #000;
+}
